@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Lee Eunhui <yieunhui8321@snu.ac.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.23.2"
+pandas = "^2.2.2"
+transformers = "^4.40.0"
+torch = "^2.2.2"
+tensorflow = "^2.16.1"
+chromadb = "^0.4.24"
+numpy = "^1.26.4"
+tqdm = "^4.66.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
