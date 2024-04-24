@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.inheritEnv": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.linting.flake8Enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
