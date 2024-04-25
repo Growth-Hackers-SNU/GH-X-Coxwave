@@ -40,8 +40,8 @@ def run_chatbot():
             vector_db,
             constants["EMBED_MODEL_NAME"],
             user_question,
-            num_context=3,
-            min_sim_score=0.4,
+            num_context=constants["NUM_CONTEXT"],
+            min_sim_score=constants["MIN_SIM_SCORE"],
         )
 
         # 관련 없는 질문이면 GPT로 답변 생성하지 않고 바로 다음 질문을 받는다
