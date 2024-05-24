@@ -1,0 +1,11 @@
+FAQ_DATA_FILE_PATH : chatbot/final_result.pkl
+DELETE_PARTS : 
+- \n\n\n위 도움말이 도움이 되었나요?\n\n\n별점1점\n\n별점2점\n\n별점3점\n\n별점4점\n\n별점5점\n\n\n\n소중한 의견을 남겨주시면 보완하도록 노력하겠습니다.\n\n보내기\n\n\n\n
+- 도움말 닫기
+CHUNK_SIZE: 500
+EMBED_MODEL_NAME : text-embedding-3-small
+INTRO_TEXT: 저는 네이버 스마트스토어 챗봇입니다. 궁금한 점을 질문해주세요!\n
+UNRELATED_QUESTION_MESSAGE: 저는 스마트 스토어 FAQ를 위한 챗봇입니다. 스마트 스토어에 대한 질문을 부탁드립니다\n
+GEN_MODEL_NAME: gpt-3.5-turbo
+NUM_CONTEXT : 3
+MIN_SIM_SCORE : 0.4
